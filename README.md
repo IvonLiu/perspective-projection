@@ -13,3 +13,7 @@ Currently this is capable of projecting a cube into a 2D plane. The cube is defi
     |  /        |  /
     | /         | /
     v0--------- v1
+
+# Projection
+
+Projection is done using this method: https://en.wikipedia.org/wiki/3D_projection#Perspective_projection
