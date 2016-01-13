@@ -94,6 +94,10 @@ public class Matrix {
 
     }
 
+    public Vector multiply(Vector v) {
+        return multiply(new Matrix(v)).col(0);
+    }
+
     public Matrix multiply(double scalar) {
         double[][] a = new double[rowCount()][colCount()];
         for (int i=0; i<rowCount(); i++) {
