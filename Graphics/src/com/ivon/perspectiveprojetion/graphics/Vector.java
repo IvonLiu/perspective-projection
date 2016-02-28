@@ -1,4 +1,4 @@
-package com.ivon.perspectiveprojection;
+package com.ivon.perspectiveprojetion.graphics;
 
 /**
  * Created by Owner on 1/11/2016.
@@ -87,6 +87,10 @@ public class Vector {
 
     public Vector subtract(Vector v) {
         return add(v.multiply(-1));
+    }
+
+    public double magnitude() {
+        return Math.sqrt(dot(this));
     }
 
     public String toString() {

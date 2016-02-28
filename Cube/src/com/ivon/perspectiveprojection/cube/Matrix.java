@@ -1,4 +1,4 @@
-package com.ivon.perspectiveprojection;
+package com.ivon.perspectiveprojection.cube;
 
 /**
  * Created by Owner on 1/11/2016.

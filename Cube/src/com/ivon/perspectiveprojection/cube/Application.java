@@ -1,4 +1,4 @@
-package com.ivon.perspectiveprojection;
+package com.ivon.perspectiveprojection.cube;
 
 import acm.graphics.GLine;
 import acm.program.GraphicsProgram;
